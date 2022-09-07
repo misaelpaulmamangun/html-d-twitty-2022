@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Anek Telugu', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 main {
@@ -13,7 +13,7 @@ main {
 }
 
 .left__content {
-  background-image: url('./img/left.png '); 
+  background-image: url('./img/left.png ');
 }
 
 .left__content > .twitter__icon {
@@ -47,26 +47,52 @@ main {
   font-size: 2rem;
 }
 
+.sign__up__buttons {
+  margin-top: 1rem;
+}
+
 .right__content .sign__up__buttons {
   display: grid;
   gap: 1rem;
 }
 
-.right__content .sign__up__buttons button, .right__content .sign__up__with button, .right__content .sign__in button {
+.sign__up__buttons i {
+  font-size: 1.2rem;
+}
+
+.right__content .sign__up__buttons button,
+.right__content .sign__up__with button,
+.right__content .sign__in button {
   width: 50%;
   border: 2px solid rgb(207, 217, 222);
   background-color: #fff;
-  padding: .7rem;
+  padding: 0.7rem;
   cursor: pointer;
   border-radius: 50px;
   font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .separator {
-  display: flex;
-  gap: 1rem;
   width: 50%;
-  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #cecece;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.separator span {
+  background: #fff;
+  padding: 0 14px;
+}
+
+.right__content .sign__up__with p {
+  font-size: 0.8rem;
+  line-height: 1;
 }
 
 .right__content .sign__up__with button {
@@ -74,6 +100,7 @@ main {
   border: none;
   font-size: 1rem;
   background-color: rgb(29, 155, 240);
+  margin-bottom: 0.5rem;
 }
 
 .right__content .sign__up__with p {
@@ -87,4 +114,20 @@ main {
 .right__content .sign__in button {
   font-size: 1rem;
   color: rgb(29, 155, 240);
+  margin-top: 1rem;
+}
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    height: unset;
+  }
+
+  .right__content {
+    padding: 2rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
 }
