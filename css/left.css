@@ -1,0 +1,15 @@
+.left__content {
+  background-image: url('./../img/left.png ');
+}
+
+.left__content > .twitter__icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left__content > .twitter__icon > svg {
+  width: 400px;
+  fill: #fff;
+}

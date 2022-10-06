@@ -1,0 +1,15 @@
+.btn {
+  width: 50%;
+  border: 2px solid rgb(207, 217, 222);
+  color: #000;
+  background-color: #fff;
+  padding: 0.7rem;
+  cursor: pointer;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
