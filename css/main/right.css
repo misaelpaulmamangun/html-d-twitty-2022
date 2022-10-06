@@ -1,0 +1,39 @@
+.right__content {
+  padding: 1rem 2rem;
+}
+
+.right__content form {
+  border-radius: 50px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.right__content form input {
+  width: 100%;
+  border: none;
+  background: transparent;
+}
+
+.right__content .trends {
+  background-color: #eeeeee;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.right__content .trends h3 {
+  margin-bottom: 1rem;
+}
+
+.right__content .trends nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.right__content .trends nav ul li {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}

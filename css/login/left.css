@@ -1,5 +1,5 @@
 .left__content {
-  background-image: url('./../img/left.png ');
+  background-image: url('./../../img/left.png ');
 }
 
 .left__content > .twitter__icon {

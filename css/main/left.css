@@ -1,0 +1,30 @@
+.left__content {
+  padding: 1rem 2rem;
+}
+
+.left__content svg {
+  width: 40px;
+  fill: rgb(29, 155, 240);
+}
+
+.left__content nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+}
+
+.left__content nav ul li {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.left__content nav ul li.active {
+  font-weight: 700;
+}
+
+.left__content .btn {
+  background-color: rgb(29, 155, 240);
+  color: #fff;
+  border: none;
+}

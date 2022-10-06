@@ -1,0 +1,13 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+    height: unset;
+  }
+}

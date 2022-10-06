@@ -6,16 +6,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
-main {
-  display: grid;
-  grid-template-columns: repeat(2, 50%);
-  height: 100vh;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
-@media (max-width: 900px) {
-  main {
-    display: flex;
-    flex-direction: column-reverse;
-    height: unset;
-  }
+.half {
+  width: 50%;
 }

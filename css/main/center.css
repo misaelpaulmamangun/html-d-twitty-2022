@@ -1,0 +1,49 @@
+.center__content {
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  min-height: 100vh;
+}
+
+.center__content .center__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.center__content .center__header h1 {
+  font-size: 1.3rem;
+}
+
+.center__content .feed__content {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 0.5rem;
+}
+
+.center__content .feed__content .profile__icon img {
+  border-radius: 50%;
+}
+
+.center__content .feed__content .user__info {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.center__content .user__info p {
+  color: #9f9f9f;
+}
+
+.center__content .content__post > p {
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.center__content .content__post .post__footer {
+  display: flex;
+  justify-content: space-between;
+}
